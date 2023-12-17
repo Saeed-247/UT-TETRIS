@@ -17,6 +17,5 @@ void SHAPE_add(Shape, char[BOARD_HEIGHT][BOARD_WIDTH]);
 int SHAPE_collide(Shape, char[BOARD_HEIGHT][BOARD_WIDTH]);
 void SHAPE_CPY(Shape, Shape);
 void SHAPE_getShape(Shape, int);
-void GAME_spawnNextShape();
 
 #endif // GAME_SHAPE_H
