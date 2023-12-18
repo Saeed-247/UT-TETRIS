@@ -30,13 +30,13 @@
 #define SHAPE_COUNT 7
 #define SHAPE_BLOCK_COUNT 4
 
-#define SHAPE_O {{0.5, 0.5}, {5, 1}, {6, 1}, {5, 2}, {6, 2}} // The square shape
-#define SHAPE_I {{1, 0}, {4, 1}, {5, 1}, {6, 1}, {7, 1}} // The line shape
-#define SHAPE_S {{0, 1}, {5, 1}, {6, 1}, {4, 2}, {5, 2}} // The s shape
-#define SHAPE_Z {{1, 1}, {4, 1}, {5, 1}, {5, 2}, {6, 2}} // The z shape
-#define SHAPE_L {{-1, 1}, {6, 1}, {4, 2}, {5, 2}, {6, 2}} // The l shape
-#define SHAPE_J {{1, 1}, {4, 1}, {4, 2}, {5, 2}, {6, 2}} // The j shape
-#define SHAPE_T {{0, 1}, {5, 1}, {4, 2}, {5, 2}, {6, 2}} // the t shape
+#define SHAPE_O {{0.5, 0.5}, {BOARD_WIDTH / 2, 1}, {BOARD_WIDTH / 2 + 1, 1}, {BOARD_WIDTH / 2, 2}, {BOARD_WIDTH / 2 + 1, 2}} // The O shape
+#define SHAPE_I {{1, 0}, {BOARD_WIDTH / 2 - 1, 1}, {BOARD_WIDTH / 2, 1}, {BOARD_WIDTH / 2 + 1, 1}, {BOARD_WIDTH / 2 + 2, 1}} // The I shape
+#define SHAPE_S {{0, 1}, {BOARD_WIDTH / 2, 1}, {BOARD_WIDTH / 2 + 1, 1}, {BOARD_WIDTH / 2 - 1, 2}, {BOARD_WIDTH / 2, 2}} // The S shape
+#define SHAPE_Z {{1, 1}, {BOARD_WIDTH / 2 - 1, 1}, {BOARD_WIDTH / 2, 1}, {BOARD_WIDTH / 2, 2}, {BOARD_WIDTH / 2 + 1, 2}} // The Z shape
+#define SHAPE_L {{-1, 1}, {BOARD_WIDTH / 2 + 1, 1}, {BOARD_WIDTH / 2 - 1, 2}, {BOARD_WIDTH / 2, 2}, {BOARD_WIDTH / 2 + 1, 2}} // The L shape
+#define SHAPE_J {{1, 1}, {BOARD_WIDTH / 2 - 1, 1}, {BOARD_WIDTH / 2 - 1, 2}, {BOARD_WIDTH / 2, 2}, {BOARD_WIDTH / 2 + 1, 2}} // The J shape
+#define SHAPE_T {{0, 1}, {BOARD_WIDTH / 2, 1}, {BOARD_WIDTH / 2 - 1, 2}, {BOARD_WIDTH / 2, 2}, {BOARD_WIDTH / 2 + 1, 2}} // the T shape
 
 #define SHAPE_LIST {SHAPE_O, SHAPE_I, SHAPE_S, SHAPE_Z, SHAPE_L, SHAPE_J, SHAPE_T}
 
